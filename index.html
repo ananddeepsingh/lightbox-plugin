@@ -1,0 +1,33 @@
+<!doctype>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A simple responsive Lightbox">
+		<meta name="keywords" content="lightBox, responsive lightBox, simple lightBox">
+		<meta name="author" content="Anand Deep Singh | singh.ananddeep@gmail.com">
+		<title>A simple responsive Lightbox</title>
+		
+		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+	</head>
+	
+	<body>
+	
+	<a href="#" id="lightBox">Open lightbox</a>
+	
+	<div id="lightBoxWrapper">
+		<div id="contentBox">This is Dummy Text.</div>
+		<div id="shadeBox"></div>
+	</div>
+	
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.lightbox.js"></script>
+	
+	<script>
+		$("#lightBoxWrapper").cssLightBox();
+	</script>
+	</body>
+	
+</html>
